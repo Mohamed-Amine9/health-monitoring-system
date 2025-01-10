@@ -1,0 +1,74 @@
+/* src/components/DoctorDashboard/PatientList.css */
+
+.patient-list-container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin-right: 1000px;
+  margin-top: 1000px;
+  overflow-y: auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f7fa; /* Soft and calm off-white */
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffffff; /* Clean white background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06); /* Light, non-intrusive shadow */
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e3e6ea; /* Very soft border for structure */
+}
+
+/* Custom danger level classes for the status column */
+tr.danger-red td {
+  background-color: #c00010 !important; /* Kept strong red for visibility */
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+tr.danger-orange td {
+  background-color: #ff8c00 !important; /* Warm, toned-down orange */
+  color: #ffffff !important; /* White text for clarity */
+  font-weight: bold;
+}
+
+tr.danger-black td {
+  background-color: #222222 !important; /* Less harsh black */
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+tr.danger-normal td {
+  background-color: #f3f6fa !important; /* Very soft blue-grey for balance */
+  color: #6c757d !important;
+  font-weight: bold;
+}
+
+/* Table cells and headers */
+.table th, .table td {
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem; /* Comfortable font size */
+  color: #444444; /* Softer dark grey text */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9eff5; /* Subtle blue-grey hover for minimal strain */
+}
+
+thead.thead-dark th {
+  background-color: #4d545b; /* Medium grey for balance */
+  color: #ffffff; /* White text for clarity */
+}
+
+.table-bordered th, .table-bordered td {
+  border-color: #dde1e7; /* Light border to complement the overall softness */
+}
+
+.dropdown-toggle {
+  margin-bottom: 15px;
+  background-color: #e3e6ea; /* Soft grey for the dropdown */
+  color: #444444; /* Neutral dark grey for text */
+}

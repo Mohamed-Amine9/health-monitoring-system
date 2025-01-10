@@ -1,0 +1,10 @@
+.doctor-dashboard {
+    display: flex;
+    height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1; /* Take up the remaining space not occupied by the sidebar */
+    padding: 20px;
+    overflow-y: auto; /* Allows scrolling if content overflows vertically */
+}
